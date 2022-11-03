@@ -74,7 +74,7 @@ def update_todo(request, pk):
         "form":form,
         "title":"update",
     }
-    return render(request, "create_Update_todo.html", context)
+    return render(request, "create_update_todo.html", context)
 
 def delete_todo(request, pk):
     todo = TodoList.objects.get(pk=pk)

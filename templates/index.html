@@ -66,9 +66,9 @@
 			<a class="btn btn-sm btn-danger" href="{% url 'todo-delete' todo.id %}">Delete</a>
 
 			{% if todo.complete == True %}
-			<strike>{{todo}}</strike>
+			<strike><a href="{% url 'todo-detail' todo.pk %}" style="color:#fff">{{todo}}</a></strike>
 			{% else %}
-			<span>{{todo}}</span>
+			<span><a href="{% url 'todo-detail' todo.pk %}" style="color:#fff">{{todo}}</a></span>
 			{% endif %}
             </div>
             {% endfor %}

@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'tododb_5pbz',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'ekeukeni',
-        'HOST':'dpg-cdh9arpgp3jpn5a2ngrg-a',
+        'HOST':'dpg-cdh9arpgp3jpn5a2ngrg-a.oregon-postgres.render.com',
         'PASSWORD': 'CHXERZfanVL28zg2hY6QuZHVeXc9x70o',
         'PORT':5432
     }
